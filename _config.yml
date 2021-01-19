@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+url: http://xuwj.online
 root: /
 permalink: :title/
 permalink_defaults:
@@ -29,7 +29,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: CNAME
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -103,4 +103,6 @@ theme: jekyll-theme-cayman
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repository: https://github.com/arvin-xuwj/arvin-xuwj.github.io
+  branch: main
